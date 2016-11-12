@@ -1,0 +1,23 @@
+//
+//  CFPrizeDemo-Prefix.pch
+//  CFPrizeDemo
+//
+//  Created by wjc on 16/11/12.
+//  Copyright © 2016年 CityFire. All rights reserved.
+//
+
+#ifndef CFPrizeDemo_Prefix_pch
+#define CFPrizeDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CFPrizeDemo_Prefix_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+CFExtension.h"
+#import "UIColor+CFExtension.h"
+#import <QuartzCore/QuartzCore.h>
+#endif
