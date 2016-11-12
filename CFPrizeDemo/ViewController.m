@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TutuRollPrizeViewController.h"
 #import "WheelPrizeViewController.h"
+#import "PrizeTurnRollViewController.h"
 #import "RandomCreateViewController.h"
 
 @interface ViewController ()
@@ -104,6 +105,11 @@
 
 - (IBAction)wheelPressed:(id)sender {
     WheelPrizeViewController *vc = [WheelPrizeViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)prizeTurnPressed:(id)sender {
+    PrizeTurnRollViewController *vc = [PrizeTurnRollViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

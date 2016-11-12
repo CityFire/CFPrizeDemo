@@ -44,6 +44,7 @@
 		04DDEDC01DD0720600B8117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDBE1DD0720600B8117D /* LaunchScreen.storyboard */; };
 		04DDEDDC1DD0722900B8117D /* WTWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDD91DD0722900B8117D /* WTWheelView.xib */; };
 		04F204E11DD6DC7D00F9744B /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 04F204E01DD6DC7D00F9744B /* Skins */; };
+		04F204E91DD6F9F600F9744B /* PrizeTurnRollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		04DDEDFA1DD0B0C200B8117D /* WheelPrizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelPrizeViewController.h; sourceTree = "<group>"; };
 		04DDEDFB1DD0B0C200B8117D /* WheelPrizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelPrizeViewController.m; sourceTree = "<group>"; };
 		04F204E01DD6DC7D00F9744B /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
+		04F204E71DD6F9F600F9744B /* PrizeTurnRollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeTurnRollViewController.h; sourceTree = "<group>"; };
+		04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeTurnRollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +282,8 @@
 				04DDEDFB1DD0B0C200B8117D /* WheelPrizeViewController.m */,
 				043CE7F31DD6206B002C69FD /* RandomCreateViewController.h */,
 				043CE7F41DD6206B002C69FD /* RandomCreateViewController.m */,
+				04F204E71DD6F9F600F9744B /* PrizeTurnRollViewController.h */,
+				04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -427,6 +432,7 @@
 				043CE8171DD635B3002C69FD /* ThemeCell.m in Sources */,
 				043CE8181DD635B3002C69FD /* ThemeImage.m in Sources */,
 				043CE8191DD635B3002C69FD /* ThemeLabel.m in Sources */,
+				04F204E91DD6F9F600F9744B /* PrizeTurnRollViewController.m in Sources */,
 				043CE81A1DD635B3002C69FD /* ThemeManager.m in Sources */,
 				043CE81B1DD635B3002C69FD /* NSString+URLEncoding.m in Sources */,
 				043CE81C1DD635B3002C69FD /* UIView+CFFirstResponder.m in Sources */,

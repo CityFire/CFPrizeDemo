@@ -45,6 +45,14 @@
                                     <action selector="randomCreateViewPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LI0-AB-dby"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXw-DT-Ek3">
+                                <rect key="frame" x="136" y="300" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="十宫格抽奖"/>
+                                <connections>
+                                    <action selector="prizeTurnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ia6-eQ-2pT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
