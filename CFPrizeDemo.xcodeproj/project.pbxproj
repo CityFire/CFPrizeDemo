@@ -45,6 +45,8 @@
 		04DDEDDC1DD0722900B8117D /* WTWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDD91DD0722900B8117D /* WTWheelView.xib */; };
 		04F204E11DD6DC7D00F9744B /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 04F204E01DD6DC7D00F9744B /* Skins */; };
 		04F204E91DD6F9F600F9744B /* PrizeTurnRollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */; };
+		04F204EE1DD7040000F9744B /* WTLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204EB1DD7040000F9744B /* WTLotteryButton.m */; };
+		04F204EF1DD7040000F9744B /* WTLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204ED1DD7040000F9744B /* WTLotteryCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +130,10 @@
 		04F204E01DD6DC7D00F9744B /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
 		04F204E71DD6F9F600F9744B /* PrizeTurnRollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeTurnRollViewController.h; sourceTree = "<group>"; };
 		04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeTurnRollViewController.m; sourceTree = "<group>"; };
+		04F204EA1DD7040000F9744B /* WTLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLotteryButton.h; sourceTree = "<group>"; };
+		04F204EB1DD7040000F9744B /* WTLotteryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLotteryButton.m; sourceTree = "<group>"; };
+		04F204EC1DD7040000F9744B /* WTLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLotteryCell.h; sourceTree = "<group>"; };
+		04F204ED1DD7040000F9744B /* WTLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTLotteryCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +297,10 @@
 		04F204E41DD6F48D00F9744B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04F204EA1DD7040000F9744B /* WTLotteryButton.h */,
+				04F204EB1DD7040000F9744B /* WTLotteryButton.m */,
+				04F204EC1DD7040000F9744B /* WTLotteryCell.h */,
+				04F204ED1DD7040000F9744B /* WTLotteryCell.m */,
 				04DDEDD51DD0722900B8117D /* WTLuckMachineView.h */,
 				04DDEDD61DD0722900B8117D /* WTLuckMachineView.m */,
 				04DDEDD71DD0722900B8117D /* WTWheelView.h */,
@@ -438,10 +448,12 @@
 				043CE81C1DD635B3002C69FD /* UIView+CFFirstResponder.m in Sources */,
 				043CE81D1DD635B3002C69FD /* UIView+ViewController.m in Sources */,
 				043CE81E1DD635B3002C69FD /* UILabel+Compatibility.m in Sources */,
+				04F204EE1DD7040000F9744B /* WTLotteryButton.m in Sources */,
 				043CE81F1DD635B3002C69FD /* UITableViewCell+Compatibility.m in Sources */,
 				043CE8201DD635B3002C69FD /* NSNull+InternalNullExtention.m in Sources */,
 				043CE8211DD635B3002C69FD /* NSNull+OVNatural.m in Sources */,
 				043CE8221DD635B3002C69FD /* UIColor+CFExtension.m in Sources */,
+				04F204EF1DD7040000F9744B /* WTLotteryCell.m in Sources */,
 				043CE8231DD635B3002C69FD /* UIView+CFExtension.m in Sources */,
 				043CE8241DD635B3002C69FD /* UIViewController+CFToast.m in Sources */,
 				043CE8251DD635B3002C69FD /* WTAward.m in Sources */,
