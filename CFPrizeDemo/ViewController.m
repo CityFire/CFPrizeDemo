@@ -11,6 +11,7 @@
 #import "WheelPrizeViewController.h"
 #import "PrizeTurnRollViewController.h"
 #import "RandomCreateViewController.h"
+#import <CoreText/CoreText.h>
 
 @interface ViewController ()
 
@@ -91,6 +92,28 @@
     });
      */
     // @synchronized指令实现锁的优点就是我们不需要在代码中显式的创建锁对象，便可以实现锁的机制，但作为一种预防措施，@synchronized块会隐式的添加一个异常处理例程来保护代码，该处理例程会在异常抛出的时候自动的释放互斥锁。所以如果不想让隐式的异常处理例程带来额外的开销，你可以考虑使用锁对象。
+}
+
+- (void)layoutText {
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithCapacity:5];
+    UIFont *font = [UIFont fontWithName:@"Arial" size:14];
+    [attributes setValue:font forKey:NSFontAttributeName];
+    [attributes setValue:@(2.0) forKey:NSKernAttributeName];
+    
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineSpacing = 1.0;
+    [attributes setValue:paragraphStyle forKey:NSParagraphStyleAttributeName];
+    // 以上构造Attributes的方法就不多介绍了，就是规定文字的换行，字体以及段落.iOS6下请参考CoreText framework提供的方法
+    NSString *aString = @"@synchronized指令实现锁的优点就是我们不需要在代码中显式的创建锁对象，便可以实现锁的机制，但作为一种预防措施，@synchronized块会隐式的添加一个异常处理例程来保护代码，该处理例程会在异常抛出的时候自动的释放互斥锁。所以如果不想让隐式的异常处理例程带来额外的开销，你可以考虑使用锁对象。";
+    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:aString attributes:attributes];
+    CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString((__bridge CFAttributedStringRef) attributedString);
+    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithRect:CGRectMake(40, 400, 200, 150)];
+    CTFrameRef frame = CTFramesetterCreateFrame(framesetter, CFRangeMake(0, 0), bezierPath.CGPath, NULL);
+    CFRange range = CTFrameGetVisibleStringRange(frame);
+//    NSInteger rangeIndex = 0;
+//    NSRange range = {rangeIndex, range.length};
+    CFRelease(frame);
+    CFRelease(framesetter);
 }
 
 - (IBAction)randomCreateViewPressed:(id)sender {

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043CE8071DD62865002C69FD /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043CE7FA1DD62865002C69FD /* theme.plist */; };
+		041F88F51DD8AF7D0079F817 /* UIView+CFHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F88F41DD8AF7D0079F817 /* UIView+CFHitTest.m */; };
+		041F88F81DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F88F71DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.m */; };
+		041F88FB1DD8B99F0079F817 /* NSString+CFPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F88FA1DD8B99F0079F817 /* NSString+CFPagination.m */; };
 		043CE8101DD6337B002C69FD /* MBProgressHUD in Resources */ = {isa = PBXBuildFile; fileRef = 043CE80F1DD6337B002C69FD /* MBProgressHUD */; };
 		043CE8131DD6347C002C69FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043CE8121DD6347C002C69FD /* CoreGraphics.framework */; };
 		043CE8161DD635B3002C69FD /* ThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE7FC1DD62865002C69FD /* ThemeButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -43,7 +45,6 @@
 		04DDEDBD1DD0720600B8117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDBC1DD0720600B8117D /* Assets.xcassets */; };
 		04DDEDC01DD0720600B8117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDBE1DD0720600B8117D /* LaunchScreen.storyboard */; };
 		04DDEDDC1DD0722900B8117D /* WTWheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDD91DD0722900B8117D /* WTWheelView.xib */; };
-		04F204E11DD6DC7D00F9744B /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 04F204E01DD6DC7D00F9744B /* Skins */; };
 		04F204E91DD6F9F600F9744B /* PrizeTurnRollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */; };
 		04F204EE1DD7040000F9744B /* WTLotteryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204EB1DD7040000F9744B /* WTLotteryButton.m */; };
 		04F204EF1DD7040000F9744B /* WTLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F204ED1DD7040000F9744B /* WTLotteryCell.m */; };
@@ -60,6 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041F88F31DD8AF7D0079F817 /* UIView+CFHitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFHitTest.h"; sourceTree = "<group>"; };
+		041F88F41DD8AF7D0079F817 /* UIView+CFHitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFHitTest.m"; sourceTree = "<group>"; };
+		041F88F61DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CFEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		041F88F71DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CFEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		041F88F91DD8B99F0079F817 /* NSString+CFPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFPagination.h"; sourceTree = "<group>"; };
+		041F88FA1DD8B99F0079F817 /* NSString+CFPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFPagination.m"; sourceTree = "<group>"; };
 		043CE7E11DD603A8002C69FD /* UIView+CFFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFFirstResponder.h"; sourceTree = "<group>"; };
 		043CE7E21DD603A8002C69FD /* UIView+CFFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFFirstResponder.m"; sourceTree = "<group>"; };
 		043CE7E41DD60450002C69FD /* UILabel+Compatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Compatibility.h"; sourceTree = "<group>"; };
@@ -74,7 +81,6 @@
 		043CE7F41DD6206B002C69FD /* RandomCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomCreateViewController.m; sourceTree = "<group>"; };
 		043CE7F61DD623DF002C69FD /* UIViewController+CFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CFToast.h"; sourceTree = "<group>"; };
 		043CE7F71DD623DF002C69FD /* UIViewController+CFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CFToast.m"; sourceTree = "<group>"; };
-		043CE7FA1DD62865002C69FD /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
 		043CE7FB1DD62865002C69FD /* ThemeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeButton.h; sourceTree = "<group>"; };
 		043CE7FC1DD62865002C69FD /* ThemeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeButton.m; sourceTree = "<group>"; };
 		043CE7FD1DD62865002C69FD /* ThemeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeCell.h; sourceTree = "<group>"; };
@@ -127,7 +133,6 @@
 		04DDEDF81DD0852500B8117D /* CFNavgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFNavgationViewController.m; sourceTree = "<group>"; };
 		04DDEDFA1DD0B0C200B8117D /* WheelPrizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelPrizeViewController.h; sourceTree = "<group>"; };
 		04DDEDFB1DD0B0C200B8117D /* WheelPrizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelPrizeViewController.m; sourceTree = "<group>"; };
-		04F204E01DD6DC7D00F9744B /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
 		04F204E71DD6F9F600F9744B /* PrizeTurnRollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeTurnRollViewController.h; sourceTree = "<group>"; };
 		04F204E81DD6F9F600F9744B /* PrizeTurnRollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeTurnRollViewController.m; sourceTree = "<group>"; };
 		04F204EA1DD7040000F9744B /* WTLotteryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTLotteryButton.h; sourceTree = "<group>"; };
@@ -166,7 +171,6 @@
 		043CE7F91DD6285B002C69FD /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				043CE7FA1DD62865002C69FD /* theme.plist */,
 				043CE7FB1DD62865002C69FD /* ThemeButton.h */,
 				043CE7FC1DD62865002C69FD /* ThemeButton.m */,
 				043CE7FD1DD62865002C69FD /* ThemeCell.h */,
@@ -243,7 +247,6 @@
 		04DDEDB01DD0720600B8117D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04F204E01DD6DC7D00F9744B /* Skins */,
 				04DDEDB11DD0720600B8117D /* main.m */,
 				043CE80E1DD62B05002C69FD /* CFPrizeDemo-Prefix.pch */,
 			);
@@ -255,6 +258,12 @@
 			children = (
 				043CE7ED1DD60A27002C69FD /* NSString+URLEncoding.h */,
 				043CE7EE1DD60A27002C69FD /* NSString+URLEncoding.m */,
+				041F88F91DD8B99F0079F817 /* NSString+CFPagination.h */,
+				041F88FA1DD8B99F0079F817 /* NSString+CFPagination.m */,
+				04DDEDF11DD078E900B8117D /* UIColor+CFExtension.h */,
+				04DDEDF21DD078E900B8117D /* UIColor+CFExtension.m */,
+				04DDEDE91DD0783C00B8117D /* UIView+CFExtension.h */,
+				04DDEDEA1DD0783C00B8117D /* UIView+CFExtension.m */,
 				043CE7E11DD603A8002C69FD /* UIView+CFFirstResponder.h */,
 				043CE7E21DD603A8002C69FD /* UIView+CFFirstResponder.m */,
 				043CE7EA1DD608C1002C69FD /* UIView+ViewController.h */,
@@ -267,10 +276,10 @@
 				04DDEDEE1DD078E900B8117D /* NSNull+InternalNullExtention.m */,
 				04DDEDEF1DD078E900B8117D /* NSNull+OVNatural.h */,
 				04DDEDF01DD078E900B8117D /* NSNull+OVNatural.m */,
-				04DDEDF11DD078E900B8117D /* UIColor+CFExtension.h */,
-				04DDEDF21DD078E900B8117D /* UIColor+CFExtension.m */,
-				04DDEDE91DD0783C00B8117D /* UIView+CFExtension.h */,
-				04DDEDEA1DD0783C00B8117D /* UIView+CFExtension.m */,
+				041F88F31DD8AF7D0079F817 /* UIView+CFHitTest.h */,
+				041F88F41DD8AF7D0079F817 /* UIView+CFHitTest.m */,
+				041F88F61DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.h */,
+				041F88F71DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.m */,
 				043CE7F61DD623DF002C69FD /* UIViewController+CFToast.h */,
 				043CE7F71DD623DF002C69FD /* UIViewController+CFToast.m */,
 			);
@@ -417,8 +426,6 @@
 				043CE83C1DD63A36002C69FD /* 37x-Checkmark.png in Resources */,
 				04DDEDBD1DD0720600B8117D /* Assets.xcassets in Resources */,
 				04DDEDBB1DD0720600B8117D /* Main.storyboard in Resources */,
-				04F204E11DD6DC7D00F9744B /* Skins in Resources */,
-				043CE8071DD62865002C69FD /* theme.plist in Resources */,
 				04DDEDDC1DD0722900B8117D /* WTWheelView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +446,7 @@
 			files = (
 				043CE8311DD635CF002C69FD /* main.m in Sources */,
 				043CE8161DD635B3002C69FD /* ThemeButton.m in Sources */,
+				041F88F81DD8B3B00079F817 /* UIButton+CFEnlargeTouchArea.m in Sources */,
 				043CE8171DD635B3002C69FD /* ThemeCell.m in Sources */,
 				043CE8181DD635B3002C69FD /* ThemeImage.m in Sources */,
 				043CE8191DD635B3002C69FD /* ThemeLabel.m in Sources */,
@@ -448,6 +456,7 @@
 				043CE81C1DD635B3002C69FD /* UIView+CFFirstResponder.m in Sources */,
 				043CE81D1DD635B3002C69FD /* UIView+ViewController.m in Sources */,
 				043CE81E1DD635B3002C69FD /* UILabel+Compatibility.m in Sources */,
+				041F88FB1DD8B99F0079F817 /* NSString+CFPagination.m in Sources */,
 				04F204EE1DD7040000F9744B /* WTLotteryButton.m in Sources */,
 				043CE81F1DD635B3002C69FD /* UITableViewCell+Compatibility.m in Sources */,
 				043CE8201DD635B3002C69FD /* NSNull+InternalNullExtention.m in Sources */,
@@ -468,6 +477,7 @@
 				043CE82E1DD635B3002C69FD /* RandomCreateViewController.m in Sources */,
 				043CE82F1DD635B3002C69FD /* CFNavgationViewController.m in Sources */,
 				043CE83A1DD638D6002C69FD /* MBProgressHUD.m in Sources */,
+				041F88F51DD8AF7D0079F817 /* UIView+CFHitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
