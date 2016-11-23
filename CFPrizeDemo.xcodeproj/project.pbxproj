@@ -41,6 +41,9 @@
 		043CE8311DD635CF002C69FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDEDB11DD0720600B8117D /* main.m */; };
 		043CE83A1DD638D6002C69FD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 043CE8391DD638D6002C69FD /* MBProgressHUD.m */; };
 		043CE83C1DD63A36002C69FD /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 043CE83B1DD63A36002C69FD /* 37x-Checkmark.png */; };
+		049082B11DE5EBD300CB3679 /* NSString+CFEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 049082B01DE5EBD300CB3679 /* NSString+CFEmoji.m */; };
+		049082B31DE5ECA900CB3679 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 049082B21DE5ECA900CB3679 /* Foundation+Log.m */; };
+		049082B61DE5ED0F00CB3679 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 049082B51DE5ED0F00CB3679 /* NSDate+Util.m */; };
 		04DDEDBB1DD0720600B8117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDB91DD0720600B8117D /* Main.storyboard */; };
 		04DDEDBD1DD0720600B8117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDBC1DD0720600B8117D /* Assets.xcassets */; };
 		04DDEDC01DD0720600B8117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DDEDBE1DD0720600B8117D /* LaunchScreen.storyboard */; };
@@ -97,6 +100,11 @@
 		043CE8381DD638D6002C69FD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
 		043CE8391DD638D6002C69FD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
 		043CE83B1DD63A36002C69FD /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "37x-Checkmark.png"; path = "MBProgressHUD/37x-Checkmark.png"; sourceTree = "<group>"; };
+		049082AF1DE5EBD300CB3679 /* NSString+CFEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFEmoji.h"; sourceTree = "<group>"; };
+		049082B01DE5EBD300CB3679 /* NSString+CFEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFEmoji.m"; sourceTree = "<group>"; };
+		049082B21DE5ECA900CB3679 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		049082B41DE5ED0F00CB3679 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		049082B51DE5ED0F00CB3679 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
 		04DDEDAD1DD0720600B8117D /* CFPrizeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFPrizeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DDEDB11DD0720600B8117D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04DDEDB31DD0720600B8117D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,6 +264,11 @@
 		04DDEDF61DD078EF00B8117D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				049082B41DE5ED0F00CB3679 /* NSDate+Util.h */,
+				049082B51DE5ED0F00CB3679 /* NSDate+Util.m */,
+				049082B21DE5ECA900CB3679 /* Foundation+Log.m */,
+				049082AF1DE5EBD300CB3679 /* NSString+CFEmoji.h */,
+				049082B01DE5EBD300CB3679 /* NSString+CFEmoji.m */,
 				043CE7ED1DD60A27002C69FD /* NSString+URLEncoding.h */,
 				043CE7EE1DD60A27002C69FD /* NSString+URLEncoding.m */,
 				041F88F91DD8B99F0079F817 /* NSString+CFPagination.h */,
@@ -467,6 +480,8 @@
 				043CE8241DD635B3002C69FD /* UIViewController+CFToast.m in Sources */,
 				043CE8251DD635B3002C69FD /* WTAward.m in Sources */,
 				043CE8261DD635B3002C69FD /* WTLuckMachineView.m in Sources */,
+				049082B61DE5ED0F00CB3679 /* NSDate+Util.m in Sources */,
+				049082B31DE5ECA900CB3679 /* Foundation+Log.m in Sources */,
 				043CE8271DD635B3002C69FD /* WTWheelView.m in Sources */,
 				043CE8281DD635B3002C69FD /* WTButton.m in Sources */,
 				043CE8291DD635B3002C69FD /* WTThemeManager.m in Sources */,
@@ -474,6 +489,7 @@
 				043CE82B1DD635B3002C69FD /* ViewController.m in Sources */,
 				043CE82C1DD635B3002C69FD /* TutuRollPrizeViewController.m in Sources */,
 				043CE82D1DD635B3002C69FD /* WheelPrizeViewController.m in Sources */,
+				049082B11DE5EBD300CB3679 /* NSString+CFEmoji.m in Sources */,
 				043CE82E1DD635B3002C69FD /* RandomCreateViewController.m in Sources */,
 				043CE82F1DD635B3002C69FD /* CFNavgationViewController.m in Sources */,
 				043CE83A1DD638D6002C69FD /* MBProgressHUD.m in Sources */,

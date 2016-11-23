@@ -210,9 +210,9 @@
     WTLotteryCell *preView = (WTLotteryCell *)[self previewByCurrentView:curView inArray:views];
     
     preView.textColor = [UIColor colorWithRed:0.74 green:0.46 blue:0.07 alpha:1];
-    preView.image=[UIImage imageNamed:@"lottery3"];
+    preView.image = [UIImage imageNamed:@"lottery3"];
     curView.textColor = [UIColor whiteColor];
-    curView.image=[UIImage imageNamed:@"lottery2"];
+    curView.image = [UIImage imageNamed:@"lottery2"];
     
 }
 
